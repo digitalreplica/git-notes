@@ -1,29 +1,38 @@
-# About
-Git Notes is a git-centric approach to taking notes, built around simple rules.
+# git-notes 101
+git-notes is a notes system using markdown and git. It's easy to get started.
 
-## One Repo per Concept
-Each git-notes repo should encompass a single concept, containing all notes pertaining to that concept.
+1. Create a [git repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+2. Take notes, starting with the README.md file.
 
-## Notes are Markdown
-[Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) is a human-focused text format, easily readable and writable by anyone. This note is written in markdown, showing how easy it is.
+Note: Examples are shown using [GitHub](https://github.com/), but any version of cloud or local git works equally well.
 
-# Getting Started
+Let's break down the steps a little further
+## Getting Started
 1. Create a new git repository. Or use [git-notes-template](https://github.com/digitalreplica/git-notes-template) as a template or `git clone`
-2. Edit the README.md file, replacing the contents with your notes.
 
-# Organizing notes in a repo
-This section is very much a work in progress, with multiple approaches being tried. Read through the principals and see what works.
+The repository can be public or private on cloud systems, or local on your own system, depending on your purpose.
+
+## Notes are markdown
+[Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) is a human-focused text format, easily readable and writable by anyone. Like this note, start with the README.md file, since it is automatically displayed in modern git tools.
+
+## Consider which license to use
+Especially with public repositories, consider what license to use. This can be traditional copyright. The [Creative Commons](https://creativecommons.org/share-your-work/) licenses provide many other ways to share your work.
+
+# git-notes 201
+This section looks on how to organize notes within a git-notes repo. It's very much a work in progress, with multiple approaches being tried. Read through these principals and see what works.
 
 ## Recall is everything
 The most important thing is asking, "What will I need to remember in order to find this again?" Can the idea be refined down to a single word? Two words? That is how repos and files should be named.
+
+## One Repo per Concept
+Each git-notes repo should encompass a single concept, containing all notes pertaining to that concept. At first, this can be a simple repo like my-notes. But people are multifacted, so as notes grow, it can be helpful to split notes into additional repos. Keeping each repo focused on a specific topic helps to know where to put notes, and where to find them.
 
 ## Prefer larger, fewer files
 Notes are at first a quick way to remember things, then a dumping ground of everything related to a topic. But hopefully what emerges is an ever more organized understanding of it. That process takes time and editing, which is easier to to in a single file.
 
 GitHub automatically displays files named `README.md`, which makes this file the natural starting point.
 
-When a topic gets too large and unwieldy, has gone through several revisions in a single file, break the largest sections off into their own notes file. Create a new markdown file (ending in `.md`), move the
-section into it, and create a link in the original file.
+When a topic gets too large and unwieldy, has gone through several revisions in a single file, break the largest sections off into their own notes file. Create a new markdown file (ending in `.md`), move the section into it, and create a link in the original file.
 
 ## Densely link topics
 Linking makes it easier to hop from topic to topic, idea to idea. It reinforces recall through repetition.
@@ -38,6 +47,9 @@ Changing the filename of a note breaks links and recall. It's an indication that
 
 ## Don't over organize
 Organization is an organic, evolving process. It's going to take multiple attempts and many changes to get it right. Following the principals of larger, fewer files and succinct recall keywords lets that happen with the least disruption.
+
+# git-knowledge
+Once comfortable that git-notes is useful and working, take a look at [git-knowledge](https://github.com/digitalreplica/git-knowledge) for a method of linking multiple repos together into a larger knowledge system.
 
 # Resources
 Here are other resources and note taking systems that may be helpful.

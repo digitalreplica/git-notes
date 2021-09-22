@@ -18,6 +18,9 @@ The repository can be public or private on cloud systems, or local on your own s
 ## Consider which license to use
 Especially with public repositories, consider what license to use. This can be traditional copyright. The [Creative Commons](https://creativecommons.org/share-your-work/) licenses provide many other ways to share your work.
 
+## Consider adding 'notes` topic
+GitHub allowed each repo to be [classified with a topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics), so others can find it more easily. Consider tagging all git-notes repos with the topic [notes](https://github.com/topics/notes)
+
 # git-notes 201
 This section looks on how to organize notes within a git-notes repo. It's very much a work in progress, with multiple approaches being tried. Read through these principals and see what works.
 

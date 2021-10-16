@@ -1,4 +1,4 @@
-# Git-notes 101
+# Git-notes Introduction
 Git-notes is a simple notes system using markdown and git. While git is traditionally a developer tool, it's really simple for anyone to use.
 
 1. Create an account on one of the git cloud providers, such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/)
@@ -35,7 +35,7 @@ Saving new changes to one or more files is called a [commit](https://github.com/
 That's all you need to effectively use the git-notes system.
 
 # Advanced topics
-Once comfortable taking notes, look at [advanced topics](advanced-topics.md) for additional ways to share, protect and organize notes.
+Once comfortable taking notes, see [advanced topics](advanced-topics.md) for additional ways to share, protect and organize notes.
 
 # Resources
 Here are other resources and note taking systems that may be helpful.

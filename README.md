@@ -34,57 +34,8 @@ Saving new changes to one or more files is called a [commit](https://github.com/
 # You're ready
 That's all you need to effectively use the git-notes system.
 
-## Consider which license to use
-Especially with public repositories, consider what license to use. This can be traditional copyright. The [Creative Commons](https://creativecommons.org/share-your-work/) licenses provide many other ways to share your work.
-
-## Consider adding 'notes` topic
-GitHub allowed each repo to be [classified with a topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics), so others can find it more easily. Consider tagging all git-notes repos with the topic [notes](https://github.com/topics/notes)
-
-# git-notes 201
-This section looks on how to organize notes within a git-notes repo. It's very much a work in progress, with multiple approaches being tried. Read through these principals and see what works.
-
-## Recall is everything
-The most important thing is asking, "What will I need to remember in order to find this again?" Can the idea be refined down to a single word? Two words? That is how repos and files should be named.
-
-## One Repo per Concept
-Each git-notes repo should encompass a single concept, containing all notes pertaining to that concept. At first, this can be a simple repo like my-notes. But people are multifacted, so as notes grow, it can be helpful to split notes into additional repos. Keeping each repo focused on a specific topic helps to know where to put notes, and where to find them.
-
-## Prefer larger, fewer files
-Notes are at first a quick way to remember things, then a dumping ground of everything related to a topic. But hopefully what emerges is an ever more organized understanding of it. That process takes time and editing, which is easier to to in a single file.
-
-GitHub automatically displays files named `README.md`, which makes this file the natural starting point.
-
-When a topic gets too large and unwieldy, has gone through several revisions in a single file, break the largest sections off into their own notes file. Create a new markdown file (ending in `.md`), move the section into it, and create a link in the original file.
-
-## Densely link topics
-Linking makes it easier to hop from topic to topic, idea to idea. It reinforces recall through repetition.
-
-TODO: markdown linking examples.
-
-## Prefer flat file structures
-When creating new note files, keep them all in the same directory when possible. This makes linking much easier and helps prevent over-organization.
-
-## Prefer unchanging note filenames
-Changing the filename of a note breaks links and recall. It's an indication that ideas haven't matured fully in larger files, or distilled into the right keywords for recall.
-
-## Don't over organize
-Organization is an organic, evolving process. It's going to take multiple attempts and many changes to get it right. Following the principals of larger, fewer files and succinct recall keywords lets that happen with the least disruption.
-
-# Security and privacy
-Git repos are built for both sharing and security, since most companies use them for their secret source code. One can provide different levels of access and security for each repo, such as:
-
-**Public**: Anyone can read the content.
-
-**Privately Shared**: Access is restricted to a group of members, where those members can only read the content, or update as well.
-
-**Private**: Only you have access.
-
-**Local**: The files can only be accessed on a single computer, like storing files locally with the change tracking features of git.
-
-**Encrypted**: Storing the files on an encrypted drive, or encrypting before storing in the git repo, provides the ultimate security.
-
-# git-knowledge
-Once comfortable that git-notes is useful and working, take a look at [git-knowledge](https://github.com/digitalreplica/git-knowledge) for a method of linking multiple repos together into a larger knowledge system.
+# Advanced topics
+Once comfortable taking notes, look at [advanced topics](advanced-topics.md) for additional ways to share, protect and organize notes.
 
 # Resources
 Here are other resources and note taking systems that may be helpful.

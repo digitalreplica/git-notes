@@ -21,9 +21,9 @@ When created, a repo must be set as a public or private repo, meaning that other
 
 Markdown files have the extension ```.md``` at the end of the filename. Many file editors recognize markdown files, and can automatically show a preview while you're editing with all the formatting applied.
 
-When browsing your note repo through a web browser, git cloud providers automatically display markdown files as web pages with all formatting applied. So you can use your repo as your personal web page.
+When browsing your note repo through a web browser, git cloud providers automatically display markdown files as web pages with all formatting applied. So you can use your repo as your personal web page. And the special file ```README.md``` is automatically displayed when viewing the repo in a web browser. That makes this file perfect for a home page, introduction, or table of contents.
 
-Lastly, the special file ```README.md``` is automatically displayed when viewing the repo in a web browser. That makes this file perfect for a home page, introduction, or table of contents.
+One handy markdown feature is [links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links) for linking to other web pages, or using relative links to other notes in your repo. For example, the link to the [advanced topics](advanced-topics.md) note is written like ```[advanced topics](advanced-topics.md)```.
 
 ## Use the built-in editor
 GitHub has a built-in file editor. For an existing file, find the ```pencil``` icon to edit that file. To create a few file, click the ```Add file``` menu button and select ```Create new file```. Name the file, ending with the extension ```.md```.

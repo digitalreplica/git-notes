@@ -2,7 +2,7 @@
 While git-notes are really simple to get started with, more advanced techniques can make them more effective.
 
 # Public notes
-Consider making one or more of you git-notes repos public, to share your knowledge with others.
+Making one or more of your git-notes repos public, let's share your knowledge with others and get feedback from them.
 
 ## Making a repo public
 A repo can be changed from private to public. For GitHub, see [Making a repository public](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#making-a-repository-public).
@@ -49,33 +49,17 @@ The most secure method is using local storage, which can be your computer, a thu
 # Organizing notes
 This section looks on how to organize notes within a git-notes repo. It's very much a work in progress, with multiple approaches being tried. Read through these principals and see what works.
 
-## Recall is everything
-The most important thing is asking, "What will I need to remember in order to find this again?" Can the idea be refined down to a single word? Two words? That is how repos and files should be named.
-
-## One Repo per Concept
-Each git-notes repo should encompass a single concept, containing all notes pertaining to that concept. At first, this can be a simple repo like my-notes. But people are multifacted, so as notes grow, it can be helpful to split notes into additional repos. Keeping each repo focused on a specific topic helps to know where to put notes, and where to find them.
+## Prefer unchanging note filenames
+Changing the filename of a note breaks links. While this can be fixed with a search and replace in your notes, it still breaks other people linking to your public notes.
 
 ## Prefer larger, fewer files
 Notes are at first a quick way to remember things, then a dumping ground of everything related to a topic. But hopefully what emerges is an ever more organized understanding of it. That process takes time and editing, which is easier to to in a single file.
 
-GitHub automatically displays files named `README.md`, which makes this file the natural starting point.
-
-When a topic gets too large and unwieldy, has gone through several revisions in a single file, break the largest sections off into their own notes file. Create a new markdown file (ending in `.md`), move the section into it, and create a link in the original file.
-
 ## Densely link topics
 Linking makes it easier to hop from topic to topic, idea to idea. It reinforces recall through repetition.
 
-TODO: markdown linking examples.
-
 ## Prefer flat file structures
-When creating new note files, keep them all in the same directory when possible. This makes linking much easier and helps prevent over-organization.
-
-## Prefer unchanging note filenames
-Changing the filename of a note breaks links and recall. It's an indication that ideas haven't matured fully in larger files, or distilled into the right keywords for recall.
-
-## Don't over organize
-Organization is an organic, evolving process. It's going to take multiple attempts and many changes to get it right. Following the principals of larger, fewer files and succinct recall keywords lets that happen with the least disruption.
-
+When creating new note files, keep them all in the same directory when possible. This makes relative linking within notes much easier
 
 # git-knowledge
 Once comfortable that git-notes is useful and working, take a look at [git-knowledge](https://github.com/digitalreplica/git-knowledge) for a method of linking multiple repos together into a larger knowledge system.

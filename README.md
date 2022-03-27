@@ -23,7 +23,7 @@ Markdown files have the extension ```.md``` at the end of the filename. Many fil
 
 When browsing your note repo through a web browser, git cloud providers automatically display markdown files as web pages with all formatting applied. So you can use your repo as your personal web page. And the special file ```README.md``` is automatically displayed when viewing the repo in a web browser. That makes this file perfect for a home page, introduction, or table of contents.
 
-One handy markdown feature is [links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links) for linking to other web pages, or using relative links to other notes in your repo. For example, the link to the [advanced topics](advanced-topics.md) note is written like ```[advanced topics](advanced-topics.md)```.
+One handy markdown feature is [links](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links) for linking to other web pages, or using relative links to other notes in your repo. For example, the link to the [advanced topics](advanced_topics.md) note is written like ```[advanced topics](advanced_topics.md)```.
 
 ## Use the built-in editor
 GitHub has a built-in file editor. For an existing file, find the ```pencil``` icon to edit that file. To create a few file, click the ```Add file``` menu button and select ```Create new file```. Name the file, ending with the extension ```.md```.
@@ -35,7 +35,7 @@ Saving new changes to one or more files is called a [commit](https://github.com/
 That's all you need to effectively use the git-notes system.
 
 # Advanced topics
-Once comfortable taking notes, see [advanced topics](advanced-topics.md) for additional ways to share, protect and organize notes.
+Once comfortable taking notes, see [advanced topics](advanced_topics.md) for additional ways to share, protect and organize notes.
 
 # Resources
 Here are other resources and note taking systems that may be helpful.

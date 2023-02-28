@@ -1,4 +1,6 @@
 # Git-notes Introduction
+NOTE: This work has evolved into https://github.com/digitalreplica/conceptual-knowledge
+
 Git-notes is a simple notes system using markdown and git. While git is traditionally a developer tool, it's really simple for anyone to use.
 
 1. Create an account on one of the git cloud providers, such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/)
